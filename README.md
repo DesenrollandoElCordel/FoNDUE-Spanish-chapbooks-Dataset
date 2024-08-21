@@ -44,7 +44,6 @@ For the lines we use :
     <img src="Readme-picture/Moreno_172.png" width="325"/>
   <img src="Readme-picture/Moreno_097.png" width="325"/>
   </p>
- 
 
 
 ### [Split](https://github.com/DesenrollandoElCordel/FoNDUE-Spanish-chapbooks-Dataset/tree/main/Grountruth/Split) ####
@@ -58,10 +57,9 @@ One can find more information here : [__Readme__ Groundtruth test](https://githu
 
 The results obtained imply that post-processing with Niblack binarisation gives the best results on the OCRisation of our corpus ( **96.80** %). Regarding segmentation, the Niblack binarisation does not bring better results. 
 _____________
-_____________
 
 ## [Models](https://github.com/DesenrollandoElCordel/FoNDUE-Spanish-chapbooks-Dataset/tree/main/Models) ###
-
+_____________
 
 ### Corpus Out of domain ####
 
@@ -76,8 +74,9 @@ The [BEST model](https://github.com/DesenrollandoElCordel/FoNDUE-Spanish-chapboo
 ### The Best Segmentation Model
 
 For segmentation, better results were achieved using the [YALTAi approach](https://enc.hal.science/hal-03723208v4) developed by Thibault Clérisse. 
-**Segmentation model accuracy: 86%**
 
+**Segmentation model accuracy: 86%**
+_____________
 ### Contact
 
 For more information, feel free to contact us at **demelerlecordel[at]gmail.com**.
