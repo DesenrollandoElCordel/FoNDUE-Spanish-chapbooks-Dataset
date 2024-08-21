@@ -67,8 +67,18 @@ _____________
 
 In order to improve our results, we undertook a fine-tuning of our model. The corpus used was constituted from the data of the [HTRCatalogs](https://github.com/Juliettejns/cataloguesSegmentationOCR/) established by Juliette Janes, Simon Gabay and Béatrice Joyeux-Prunel, whose segmentation was corrected to correspond to the latest standards of _SegmOnto_. 
 
-### Modification of the architecture ####
+### Modification of the Architecture: The BEST HTR Model
 
-### Results ####
+The [BEST model](https://github.com/DesenrollandoElCordel/FoNDUE-Spanish-chapbooks-Dataset/tree/main/Models/Models-HTR-Varios/BEST) yielded the most accurate results. It was trained on an expanded dataset, which included the original Ground Truth enriched with 250 corrected Varios documents. The script used, [submission-script-architecture_+.sh](https://github.com/DesenrollandoElCordel/FoNDUE-Spanish-chapbooks-Dataset/blob/main/Submission-script/submission-script-architecture_%2B.sh), modified Kraken’s architecture by adding multiple convolutional and LSTM layers while setting low learning rate parameters.
 
-:arrows_clockwise: In progress !
+**Transcription model accuracy: 96.7%**
+
+### The Best Segmentation Model
+
+For segmentation, better results were achieved using the [YALTAi approach](https://enc.hal.science/hal-03723208v4) developed by Thibault Clérisse. 
+**Segmentation model accuracy: 86%**
+
+### Contact
+
+For more information, feel free to contact us at **demelerlecordel[at]gmail.com**.
+
